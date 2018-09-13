@@ -1,0 +1,114 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/jm/tensorflow-1.9.0/tensorflow/examples/android/AndroidManifest.xml:18:1-47:12
+MERGED from [com.android.support:design:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/ee57cf51cb0052aa4ebb869f1bb62af6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /root/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/e07e38d0269d6c8bedbb53a5cb2bc14e/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/3a24cd2f1bd75e2fb63a37a7591883bc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f47109725ed44e4d1e57af367b3f701a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/e2a5e8940ea59e3b4e8bc36a4dba7770/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/bd84734381ac97fd223009e8255f604a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/4e0d9dde583dc9afe810cdf59e7b5e42/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/c3f6f499e801fcbd33ba24e8cb7fb72b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/a8c2920bd653f1f47dd25c041ba4cfc8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/a888ebe9c4aa775feac8d4fbc0f50fdb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/b58d3020aa61ecfb55cdf587721a9bc5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/3ffba094bf6ed1ef9fb18a7c2c44a018/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/4ada0776dd9f8350265d82be7954d1ac/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/dd6d2ff3173514ad64e0109dbfdca809/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /root/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/f633313769671b3b6c65d4765dd5a526/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /root/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/c26a9268229cdd9850cd52798fc460f8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/903c940c0a53b12225616238de73b65b/AndroidManifest.xml:17:1-22:12
+	package
+		ADDED from /home/jm/tensorflow-1.9.0/tensorflow/examples/android/AndroidManifest.xml:19:5-37
+	xmlns:android
+		ADDED from /home/jm/tensorflow-1.9.0/tensorflow/examples/android/AndroidManifest.xml:18:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /home/jm/tensorflow-1.9.0/tensorflow/examples/android/AndroidManifest.xml:21:5-65
+	android:name
+		ADDED from /home/jm/tensorflow-1.9.0/tensorflow/examples/android/AndroidManifest.xml:21:22-62
+uses-feature#android.hardware.camera
+ADDED from /home/jm/tensorflow-1.9.0/tensorflow/examples/android/AndroidManifest.xml:22:5-60
+	android:name
+		ADDED from /home/jm/tensorflow-1.9.0/tensorflow/examples/android/AndroidManifest.xml:22:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /home/jm/tensorflow-1.9.0/tensorflow/examples/android/AndroidManifest.xml:23:5-70
+	android:name
+		ADDED from /home/jm/tensorflow-1.9.0/tensorflow/examples/android/AndroidManifest.xml:23:19-67
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/jm/tensorflow-1.9.0/tensorflow/examples/android/AndroidManifest.xml:24:5-80
+	android:name
+		ADDED from /home/jm/tensorflow-1.9.0/tensorflow/examples/android/AndroidManifest.xml:24:22-78
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/jm/tensorflow-1.9.0/tensorflow/examples/android/AndroidManifest.xml:25:5-71
+	android:name
+		ADDED from /home/jm/tensorflow-1.9.0/tensorflow/examples/android/AndroidManifest.xml:25:22-68
+uses-sdk
+ADDED from /home/jm/tensorflow-1.9.0/tensorflow/examples/android/AndroidManifest.xml:27:5-29:41
+MERGED from [com.android.support:design:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/ee57cf51cb0052aa4ebb869f1bb62af6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/ee57cf51cb0052aa4ebb869f1bb62af6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /root/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/e07e38d0269d6c8bedbb53a5cb2bc14e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /root/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/e07e38d0269d6c8bedbb53a5cb2bc14e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/3a24cd2f1bd75e2fb63a37a7591883bc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/3a24cd2f1bd75e2fb63a37a7591883bc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f47109725ed44e4d1e57af367b3f701a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f47109725ed44e4d1e57af367b3f701a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/e2a5e8940ea59e3b4e8bc36a4dba7770/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/e2a5e8940ea59e3b4e8bc36a4dba7770/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/bd84734381ac97fd223009e8255f604a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/bd84734381ac97fd223009e8255f604a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/4e0d9dde583dc9afe810cdf59e7b5e42/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/4e0d9dde583dc9afe810cdf59e7b5e42/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/c3f6f499e801fcbd33ba24e8cb7fb72b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/c3f6f499e801fcbd33ba24e8cb7fb72b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/a8c2920bd653f1f47dd25c041ba4cfc8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/a8c2920bd653f1f47dd25c041ba4cfc8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/a888ebe9c4aa775feac8d4fbc0f50fdb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/a888ebe9c4aa775feac8d4fbc0f50fdb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/b58d3020aa61ecfb55cdf587721a9bc5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/b58d3020aa61ecfb55cdf587721a9bc5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/3ffba094bf6ed1ef9fb18a7c2c44a018/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/3ffba094bf6ed1ef9fb18a7c2c44a018/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/4ada0776dd9f8350265d82be7954d1ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/4ada0776dd9f8350265d82be7954d1ac/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/dd6d2ff3173514ad64e0109dbfdca809/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/dd6d2ff3173514ad64e0109dbfdca809/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /root/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/f633313769671b3b6c65d4765dd5a526/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /root/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/f633313769671b3b6c65d4765dd5a526/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /root/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/c26a9268229cdd9850cd52798fc460f8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /root/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/c26a9268229cdd9850cd52798fc460f8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/903c940c0a53b12225616238de73b65b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/903c940c0a53b12225616238de73b65b/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		ADDED from /home/jm/tensorflow-1.9.0/tensorflow/examples/android/AndroidManifest.xml:29:9-38
+	android:minSdkVersion
+		ADDED from /home/jm/tensorflow-1.9.0/tensorflow/examples/android/AndroidManifest.xml:28:9-35
+application
+ADDED from /home/jm/tensorflow-1.9.0/tensorflow/examples/android/AndroidManifest.xml:31:5-45:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /root/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/e07e38d0269d6c8bedbb53a5cb2bc14e/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /root/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/e07e38d0269d6c8bedbb53a5cb2bc14e/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /home/jm/tensorflow-1.9.0/tensorflow/examples/android/AndroidManifest.xml:33:9-41
+	android:debuggable
+		ADDED from /home/jm/tensorflow-1.9.0/tensorflow/examples/android/AndroidManifest.xml:32:9-34
+	android:icon
+		ADDED from /home/jm/tensorflow-1.9.0/tensorflow/examples/android/AndroidManifest.xml:34:9-45
+	android:allowBackup
+		ADDED from /home/jm/tensorflow-1.9.0/tensorflow/examples/android/AndroidManifest.xml:31:18-44
+	android:theme
+		ADDED from /home/jm/tensorflow-1.9.0/tensorflow/examples/android/AndroidManifest.xml:35:9-45
+activity#com.jm.mushroomsfinder.MainActivity
+ADDED from /home/jm/tensorflow-1.9.0/tensorflow/examples/android/AndroidManifest.xml:37:9-44:20
+	android:label
+		ADDED from /home/jm/tensorflow-1.9.0/tensorflow/examples/android/AndroidManifest.xml:39:13-45
+	android:name
+		ADDED from /home/jm/tensorflow-1.9.0/tensorflow/examples/android/AndroidManifest.xml:38:13-40
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/jm/tensorflow-1.9.0/tensorflow/examples/android/AndroidManifest.xml:40:13-43:29
+action#android.intent.action.MAIN
+ADDED from /home/jm/tensorflow-1.9.0/tensorflow/examples/android/AndroidManifest.xml:41:17-69
+	android:name
+		ADDED from /home/jm/tensorflow-1.9.0/tensorflow/examples/android/AndroidManifest.xml:41:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/jm/tensorflow-1.9.0/tensorflow/examples/android/AndroidManifest.xml:42:17-77
+	android:name
+		ADDED from /home/jm/tensorflow-1.9.0/tensorflow/examples/android/AndroidManifest.xml:42:27-74
